@@ -54,6 +54,7 @@
   <ItemGroup>
      <Compile Include="Assets\Package\Exercise 2\TopDownPlayerController.cs" />
      <Compile Include="Assets\Exercise 1\Colorfly.cs" />
+     <Compile Include="Assets\Exercise 1\SceneLoader.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
