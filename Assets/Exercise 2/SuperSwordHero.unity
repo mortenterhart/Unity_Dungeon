@@ -12383,17 +12383,29 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8082233475139892048, guid: 70ccd1d6c1b4c4b8eaee8df6c4cd0e6d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082233475139892048, guid: 70ccd1d6c1b4c4b8eaee8df6c4cd0e6d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082233475139892048, guid: 70ccd1d6c1b4c4b8eaee8df6c4cd0e6d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1802895871
+      objectReference: {fileID: 0}
     - target: {fileID: 8082233475139892051, guid: 70ccd1d6c1b4c4b8eaee8df6c4cd0e6d, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8082233475139892051, guid: 70ccd1d6c1b4c4b8eaee8df6c4cd0e6d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.31
+      value: 7.7
       objectReference: {fileID: 0}
     - target: {fileID: 8082233475139892051, guid: 70ccd1d6c1b4c4b8eaee8df6c4cd0e6d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.86
+      value: 1.99
       objectReference: {fileID: 0}
     - target: {fileID: 8082233475139892051, guid: 70ccd1d6c1b4c4b8eaee8df6c4cd0e6d, type: 3}
       propertyPath: m_LocalPosition.z

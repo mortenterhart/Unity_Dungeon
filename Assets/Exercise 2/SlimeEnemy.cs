@@ -8,8 +8,9 @@ public class SlimeEnemy : MonoBehaviour
     private Animator _animator;
 
     private GameObject _player;
-
-    private int _speed = 100;
+    
+    private int _speed = 3;
+    private bool _isMoving = true;
 
     private void Awake()
     {
@@ -19,9 +20,23 @@ public class SlimeEnemy : MonoBehaviour
         _player = GameObject.Find("Player");
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        _body.MovePosition(Vector2.MoveTowards(transform.position, _player.transform.position, _speed * Time.deltaTime));
+        if (_isMoving)
+        {
+            _body.MovePosition(Vector2.MoveTowards(transform.position, _player.transform.position,
+                _speed * Time.deltaTime));
+        }
+
+        _isMoving = true;
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag.Equals("Player"))
+        {
+            _isMoving = false;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
