@@ -52,3 +52,15 @@ TagManager:
   - name: Player
     uniqueID: 1221174693
     locked: 0
+  - name: DungeonFloor
+    uniqueID: 2037385267
+    locked: 0
+  - name: DungeonWalls
+    uniqueID: 1623607623
+    locked: 0
+  - name: DungeonPlayer
+    uniqueID: 2058823269
+    locked: 0
+  - name: DungeonObjects
+    uniqueID: 2492071425
+    locked: 0
